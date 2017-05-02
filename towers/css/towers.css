@@ -1,0 +1,52 @@
+ul {
+  list-style: none;
+}
+
+.group:after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+body {
+  font-family: sans-serif;
+  text-align: center;
+  font-weight: bold;
+}
+
+.hanoi {
+  margin: 30px auto;
+  width: 600px;
+}
+
+ul {
+  float: left;
+  width: 180px;
+  padding: 0 0 10px 0;
+  border-bottom: 10px solid black;
+  cursor: pointer;
+}
+
+ul:hover {
+  border-color: blue;
+}
+
+li {
+  width: 0px;
+  margin: 10px auto;
+  height: 50px;
+  background: gray;
+  border-radius: 25px;
+}
+
+li.disk-1 {
+  width: 60px;
+}
+
+li.disk-2 {
+  width: 120px;
+}
+
+li.disk-3 {
+  width: 180px;
+}
